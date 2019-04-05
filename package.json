@@ -1,0 +1,18 @@
+{
+  "name": "imapc",
+  "version": "v0.0.1",
+  "description": "Utility for testing the operation of an imap server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "razueroh",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^2.20.0"
+  },
+  "bin": {
+    "imapc": "./index.js"
+  }
+}
