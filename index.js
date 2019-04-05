@@ -102,7 +102,7 @@ if (host) {
   const rl = readline.createInterface({
     input: process.stdin,
     output: process.stdout,
-    prompt: 'imapc> '
+    prompt: chalk`{bold {cyan imapc>}} `
   });
 
   rl.on('line', (line) => {
