@@ -77,6 +77,9 @@ if (host) {
     if (prompt || initialPrompt) {
       if (initialPrompt) {
         initialPrompt = false;
+      } else {
+        console.timeEnd('Time elapsed');
+        process.stdout.write('\n');
       }
 
       // show prompt
@@ -112,6 +115,9 @@ if (host) {
     commandSeq = matches[1];
 
     socket.write(line + '\r\n');
+    
+    console.time('Time elapsed');
+
     process.stdout.write(`\n`);
   });
 
