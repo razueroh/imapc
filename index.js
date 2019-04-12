@@ -10,7 +10,7 @@ program
   .name('imapc')
   .description('imapc is a utility for testing the operation of an imap server')
   .option('-p, --port <port>', 'port to connect to', 993)
-  .option('-H, --hostname [hostname]', 'hostname to connect to')
+  .option('-n, --hostname [hostname]', 'hostname to connect to')
   .parse(process.argv);
 
 const {

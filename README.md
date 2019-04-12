@@ -8,7 +8,7 @@ __imapc__ is a utility for testing the operation of an imap server.
 
 ## Run
 
-    $ imapc -H <hostname> -p <port>
+    $ imapc -n <hostname> -p <port>
 
 ## LICENSE
 
